@@ -1,0 +1,4 @@
+GET http://localhost:3003/balances/3351514a-8c22-455c-aae0-fd7d5b2b31j7 HTTP/1.1   
+   
+### 
+GET http://localhost:3003/balances/023b19f6-c81f-497a-bdc2-4602e7856632 HTTP/1.1    
