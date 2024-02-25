@@ -59,7 +59,7 @@ func main() {
 	}
 
 	fmt.Println("Server is running")
-	webserver.Start()
+	go webserver.Start()
 
 	logger := log.New(os.Stdout, "KafkaConsumer: ", log.LstdFlags)
 	configMap := ckafka.ConfigMap{

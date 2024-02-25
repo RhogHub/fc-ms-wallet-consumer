@@ -42,4 +42,7 @@ CREATE TABLE IF NOT EXISTS balances (
     updated_at date
 );
 
+-- INSERT INTO balances (id, account_id, balance, created_at, updated_at) VALUES
+-- ('9951514a-8c29-455c-aae0-fd7d5b2b3h99','j65151aa-8c23-655c-bae4-fd7d5b2b31d3', 1000.00, '2024-02-25', '2024-02-25');
+
 SET GLOBAL sql_mode = '';
